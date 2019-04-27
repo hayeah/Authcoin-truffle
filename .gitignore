@@ -1,0 +1,8 @@
+*.iml
+.idea
+build
+installed_contracts
+node_modules/
+coverage/
+package-lock.json
+coverage.json

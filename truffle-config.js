@@ -1,10 +1,16 @@
 module.exports = {
   networks: {
     development: {
-      gas:6721975 ,
-      host: "192.168.1.110",
+      gas:8000000,
+      host: "127.0.0.1",
       port: 7545,
       network_id: "*" // Match any network id
+    }
+  },
+  solc: {
+    optimizer: {
+      enabled: true,
+      runs: 200
     }
   }
 };
